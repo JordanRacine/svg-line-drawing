@@ -1,0 +1,53 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+.title {
+  z-index: 2;
+  color: white;
+  animation: text-appear .5s linear forwards;
+  animation-delay: .5s;
+  opacity: 0;
+}
+
+#rainbow-red{
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1244px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-orange{
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1367px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-yellow {
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1484px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-green{
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1597px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-blue{
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1706px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-indigo{
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 0;
+}
+
+#rainbow-violet{
+  animation: red 2s linear forwards;
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 0;
+}
