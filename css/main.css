@@ -2,7 +2,7 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
-#narwhal-body{
+#narwhal-body {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1981.415px;
   stroke-dashoffset: 1981.415px;
@@ -13,13 +13,22 @@ html {
   opacity: 0;
 }
 
-#rainbow-red{
+h1 {
+  animation: fade 3s ease;
+  color: #fff;
+  top: 2em;
+  left: 1em;
+  width: 6em;
+  z-index: 100;
+}
+
+#rainbow-red {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1243.5px;
   stroke-dashoffset: 1243.5px;
 }
 
-#rainbow-orange{
+#rainbow-orange {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1366.3px;
   stroke-dashoffset: 1366.3px;
@@ -31,39 +40,39 @@ html {
   stroke-dashoffset: 1483.352px;
 }
 
-#rainbow-green{
+#rainbow-green {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1596.043px;
   stroke-dashoffset: 1596.043px;
 }
 
-#rainbow-blue{
+#rainbow-blue {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1705.479px;
   stroke-dashoffset: 1705.479px;
 }
 
-
-#rainbow-indigo{
+#rainbow-indigo {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1812.502px;
   stroke-dashoffset: 1812.502px;
 }
 
-#rainbow-violet{
+#rainbow-violet {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1917.692px;
   stroke-dashoffset: 1917.692px;
 }
 
-@@keyframes stroke {
+@keyframes stroke {
 
   to {
-  stroke-dashoffset: 0;
+    stroke-dashoffset: 0;
   }
 }
 
-@@keyframes fade {
+@keyframes fade {
+
   0% {
     opacity: 0;
   }
